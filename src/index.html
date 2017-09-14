@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no" />
+     <script type="text/javascript" src="./assets/libs/js/flexible_css.js"></script>
+    <script type="text/javascript" src="./assets/libs/js/flexible.js"></script>
+    <title>衣秀</title>
+    <!-- <link rel="stylesheet" href="./assets/libs/css/normalize.css?rev=@@hash"> -->
+    <link rel="stylesheet" href="./assets/styles/less/base.css?rev=@@hash">
+    <link rel="stylesheet" href="./assets/libs/css/swiper.min.css">    
+    <link rel="stylesheet" href="./assets/styles/less/orderDetail.css?rev=@@hash">
+    
+    <!-- build:config -->
+    <!-- 此处为全局环境配置 -->
+    <!-- endbuild -->
+  </head>
+  <body>
+    <header>
+      <img id="headerImage" src="" alt="">
+      <span id="userName" class="userName">朱哥</span>
+    </header>
+    <div id="myCarousel"  class="swiper-container" >
+      <div class="swiper-pagination">
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>
+      </div>
+      <div class="swiper-wrapper" >
+        <div class="item swiper-slide">
+           <img id="prosImage" src="" alt="">
+        </div>
+        <div class="item swiper-slide">
+          <img id="confImage" src="" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="textInfo">
+      <h2 id="title" class="title">某某的原创</h2>
+      <span class="price" id="price">￥49.99</span>
+      <p id="typeInfo" class="typeInfo">女-上衣 T恤</p>
+      <p id="productId" class="productId">商品ID: 10892473</p>
+      <p id="size" class="size">尺寸：170cm</p>
+      <p class="colorP">颜色：<span class="colorView" id="colorView"></span></p>
+    </div>
+    <p class="footer">点我下载衣秀</p>
+    <!-- bower:js -->
+    <!-- endbower -->
+    <script type="text/javascript" src="./assets/libs/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/libs/js/swiper.jquery.min.js"></script>
+    
+    <script type="text/javascript" src="./assets/js/base.js?rev=@@hash"></script>
+  </body>
+</html>
