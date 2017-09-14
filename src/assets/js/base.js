@@ -43,6 +43,8 @@ $(document).ready(function () {
       $('#productId').text(`商品ID：${result.Gender+result.baseId}`);
       $('#size').text(`尺寸：${result.height}`);
       $('#colorView').css('background',`#${result.color}`);
+      $('#price').text(`￥${result.fee.toFixed(2)}`);
+      
   } 
   
   function getUrlParams(name) {
